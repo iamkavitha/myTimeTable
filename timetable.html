@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Time Table</title>
+</head>
+
+<body>
+  <center>
+    <div class="container">
+      <form>
+        <table>
+          <tr>
+            <td><label for="work">To Do:</label>
+              <input type="text" id="work" class="form-control" name="work" value="" placeholder="What you'll do?">
+            </td>
+            <td> <label for="time">Time:</label>
+              <input type="text" id="time" class="form-control" name="time" value="" placeholder="eg. 8:00-9:30"> 
+            </td>
+          </tr>
+        </table>
+        <br>
+        <button type="button" id="done" class="btn btn-primary">Add</button>
+      </form>
+      <br>
+      <table class="table">
+        <thead class="thead-dark" id="mytable">
+          <tr>
+
+            <td scope="col">Time</td>
+            <td scope="col">To Do</td>
+
+          </tr>
+        </thead>
+
+      </table>
+    </div>
+    <br><br><br>
+    <button type="button" id="complete" class="btn btn-dark">Complete</button>
+    <br><br><br><br>
+
+
+
+    <script type="text/javascript" src="main.js">
+    </script>
+  </center>
+</body>
+
+</html>

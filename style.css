@@ -1,0 +1,36 @@
+body{
+     background-image:url(clock.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+}
+table,tr,td{
+  border-spacing: 100px;
+}
+h1
+{
+  color:black;
+}
+p{
+  font-size: 20px;
+  margin-left: 5px;
+}
+a{
+text-decoration: none;
+font-size: 25px;
+color:palegreen;
+}
+a:hover
+{
+  text-decoration: underline;
+  color:white;
+}
+#new
+{
+  font-size: 25px;
+  margin-left: 5px;
+  color:gold;
+}
+#new1{
+  color: white;
+  font-size: 20px;
+}
